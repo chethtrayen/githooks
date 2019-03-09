@@ -4,6 +4,7 @@ node_js:
 deploy:
   provider: heroku
   on:
+    repo: chethtrayen/githooks
     branch: master
   app: hidden-plains-84544
   api_key:
