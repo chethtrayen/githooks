@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
+const gitRoutes = require('./git/routes');
 
-app.get('/test', (req, res) => {
-    res.send('You have reach this app');
-})
+app.use('/git', gitRoutes);
 
 module.exports = app;
