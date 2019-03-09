@@ -17,7 +17,7 @@
     "heroku"
   ],
   "engines": {
-    "node" : "10.x"
+    "node": "10.x"
   },
   "author": "",
   "license": "ISC",
@@ -27,7 +27,9 @@
   "homepage": "https://github.com/chethtrayen/githooks#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "express": "^4.16.4",
     "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
